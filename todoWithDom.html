@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Todo App</h1>
-    <input placeholder="enter your task"/>
-    <button>Add Task</button>
-    <ul>
-        <li>Eat<button class="delete">delete</button></li>
-        <li>Sleep<button class="delete">delete</button></li>
-    </ul>
+    <div class="container">
+        <h1>Todo App</h1>
+        
+        <div class="input-section">
+            <input placeholder="Enter your task..."/>
+            <button>Add Task</button>
+        </div>
+
+        <ul>
+            <li>Eat <button class="delete">Delete</button></li>
+            <li>Sleep <button class="delete">Delete</button></li>
+        </ul>
+    </div>
+
     <script src="todo.js"></script>
 </body>
 </html>
